@@ -68,4 +68,8 @@ public class Page {
     public void setChoice2(Choice mChoice2) {
         this.mChoice2 = mChoice2;
     }
+
+    public boolean isFinal(){
+        return mIsFinal;
+    }
 }
